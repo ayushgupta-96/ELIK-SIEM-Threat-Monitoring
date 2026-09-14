@@ -10,16 +10,6 @@ A fully functional Security Operations Center (SOC) home lab built from scratch 
 
 📄 **[Read the Full Final Report](reports/soc-lab-final-report.md)** — includes embedded screenshots for every dashboard, alert, and attack simulation.
 
-## Lab Details
-
-| Field | Details |
-|-------|---------|
-| Author | Hammad Khan |
-| Start Date | May 20, 2026 |
-| Last Updated | June 8, 2026 |
-| Status | Complete ELK SIEM Operational |
-| GitHub | github.com/HK101-cyber |
-
 ## Lab Architecture
 
 ```mermaid
@@ -138,28 +128,6 @@ Threat Hunts: 3 (all confirmed)
 Security Gaps Found: 5  
 GitHub Commits: 20+
 
-## Lab Build Timeline
-
-| Date | Milestone |
-|------|-----------|
-| May 20, 2026 | Lab environment setup Ubuntu SIEM deployed |
-| May 20, 2026 | SSH configured PowerShell connected |
-| May 20, 2026 | Elasticsearch 8.19 installed and running |
-| May 22, 2026 | Kibana installed browser verified |
-| May 22, 2026 | Logstash installed port 5044 listening |
-| May 23, 2026 | Filebeat configured 431K+ logs ingested |
-| May 25, 2026 | All 5 Linux detection rules deployed |
-| May 25, 2026 | Brute force attack simulated alert fired |
-| Jun 1, 2026 | Elasticsearch security configured |
-| Jun 1, 2026 | Kibana encryption keys added |
-| Jun 2, 2026 | All 6 attack simulations completed |
-| Jun 4, 2026 | Winlogbeat installed Windows logs ingested |
-| Jun 4, 2026 | Sysmon deployed deep Windows telemetry |
-| Jun 5, 2026 | Dashboard 4 (Windows Security) built |
-| Jun 5, 2026 | PowerShell attack simulated Sysmon captured |
-| Jun 8, 2026 | 3 threat hunt reports completed |
-| Jun 8, 2026 | Final SOC lab report written |
-
 ## Tools and Technologies
 
 SIEM: Elasticsearch, Kibana, Logstash  
@@ -178,18 +146,3 @@ detection-rules/README.md --> All rule documentation
 attack-simulations/README.md --> Complete attack kill chain  
 threat-hunts/README.md --> All hunt reports
 
-## Coming Next Phase 2
-
-Splunk Enterprise SIEM  
-SPL detection rules  
-Splunk dashboards  
-Wazuh XDR deployment
-
-Part of a complete cybersecurity portfolio built command by command in a real lab environment.
-
-**Connect:**
-- **LinkedIn:** [hammad-khan-sec](https://www.linkedin.com/in/hammad-khan-sec)
-- **TryHackMe:** [PentesterHK](https://tryhackme.com/p/PentesterHK)
-- **LetsDefend:** [HK101cyber](https://app.letsdefend.io/user/HK101cyber)  
-- **GitHub:** [github.com/HK101-cyber](https://github.com/HK101-cyber)
-- **GitHub:** [github.com/HK101-cyber](https://github.com/HK101-cyber)
